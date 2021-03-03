@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to top right, rgb(32, 165, 158), rgb(211, 250, 247));
+    background-attachment: fixed
+}
+
+h1 {
+    text-align: center;
+    font-family: cursive;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px rgb(185, 185, 185);
+    animation: txtcolor 2s ease forwards 3s, txtrotate 2s ease forwards 1s;
+    
+}
+@keyframes txtcolor {
+    0% {color:rgb(255, 255, 255);}
+    100% {color: rgb(2, 172, 163);}
+}
+@keyframes txtrotate {
+    from {transform: rotatey(0deg);}
+    to {transform: rotatey(360deg);}
+}
+
+.firststring {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contall {
+    width: 40%;
+    margin: 20px;
+}
+
+.cont1 {
+    background-color: rgb(221, 248, 238);
+}
+
+.cont2 {
+    background-color: rgb(222, 221, 248);
+}
+
+.cont3 {
+    background-color: rgb(248, 240, 221);
+    margin: auto;
+    margin-top: 10px;
+ }
